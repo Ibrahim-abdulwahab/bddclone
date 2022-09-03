@@ -1,6 +1,11 @@
 <html>
  <head>
     <style>
+        .first{
+            height:100%;
+            width: 100%;
+            background-image: url('first.png'); 
+        }
         .top{
             display: flex;
             flex-direction: row;
@@ -18,12 +23,21 @@
         .submenu{
             padding-right: 20px;
             font-size: small;
+            font-style: bold;
+            color: white;
+        }
+        .body{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
         }
 
     </style>
 
  </head>
- <body>
+ <body class="body">
+<section class="first">    
 <div class="top">
     <div class="pic"><img src="logo-light.png" width="75" hight="75"></div>
     <div class="nav">
@@ -35,9 +49,10 @@
             <li class="submenu">Bdd ACADEMY</li>
             <li class="submenu">BLOG</li>
             <li class="submenu">WORK WITH US</li>
-            <li class="submenu">JOIN US</li>
+            <li class="submenu" style="background-color:blue ;">JOIN US</li>
         </ul>
     </div>
 </div>
+</section>
  </body>   
 </html>
