@@ -1,24 +1,41 @@
 <html>
  <head>
     <style>
-        
+        .top{
+            display: flex;
+            flex-direction: row;
+            height:20%;
+            justify-content: space-around;
+        }
+        .nav{
+            padding-top: 20px;
+        }
+        .menu{
+            display:flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        .submenu{
+            padding-right: 20px;
+            font-size: small;
+        }
 
     </style>
 
  </head>
  <body>
 <div class="top">
-    <div class="pic"><img src="logo-light.png"></div>
-    <div class="menu">
-        <ul>
-            <li>DISCOVER BDD</li>
-            <li>OUR PRODUCT & SERVICES</li>
-            <li>OUR PRODUCT &SERVICES</li>
-            <li>EVENTS</li>
-            <li>Bdd ACADEMY</li>
-            <li>BLOG</li>
-            <li>WORK WITH US</li>
-            <li>JOIN US</li>
+    <div class="pic"><img src="logo-light.png" width="75" hight="75"></div>
+    <div class="nav">
+        <ul class="menu">
+            <li class="submenu">DISCOVER BDD</li>
+            <li class="submenu">OUR PRODUCT & SERVICES</li>
+            <li class="submenu">OUR PRODUCT &SERVICES</li>
+            <li class="submenu">EVENTS</li>
+            <li class="submenu">Bdd ACADEMY</li>
+            <li class="submenu">BLOG</li>
+            <li class="submenu">WORK WITH US</li>
+            <li class="submenu">JOIN US</li>
         </ul>
     </div>
 </div>
