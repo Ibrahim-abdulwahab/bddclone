@@ -242,5 +242,30 @@
         height:39vh;
         font-size: 30;
     }
+    .eighth{
+        width: 100vw;
+        height:140vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(61, 58, 58);
+        color: white;
+    }
+    .apps{
+        display: flex;
+        justify-content: flex-start;
+        background-color: rgb(61, 58, 58);
+    }
+    .l{
+        width: 30%;
+        list-style: none;
+    }
+    .l >li{
+        padding-top:15%;
+        font-size: 50;
+    }
+
     
  
