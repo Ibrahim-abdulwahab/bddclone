@@ -153,6 +153,12 @@
         justify-content: flex-start;
         color: white;
     }
+    .help21{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+    }
     .program{
         display:flex;
         justify-content: center;
