@@ -190,8 +190,10 @@
     }
     .sixth{
         width: 100vw;
-        height:60vh;
+        height:65vh;
         background-image: url("https://beirutdigitaldistrict.com/img/parallax-7.jpg");
+        margin-bottom: 120px;
+        padding-bottom: 200px;
     }
     .stuff2{
         padding-top: 40px;
@@ -225,6 +227,20 @@
     .program{
         display:flex;
         justify-content: center;
+    }
+    .seventh{
+        width: 100vw;
+        height:50vh;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    
+    }
+    .community{
+        margin: auto;
+        width: 80vw;
+        height:39vh;
+        font-size: 30;
     }
     
  
